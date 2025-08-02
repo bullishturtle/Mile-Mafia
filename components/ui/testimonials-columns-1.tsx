@@ -36,10 +36,8 @@ export const TestimonialsColumn = (props: {
                       alt={name}
                       className="h-12 w-12 rounded-full object-cover border-2 border-primary" // Added border for luxury
                     />
-                    <div className="flex flex-col">
-                      <div className="font-bold tracking-tight leading-5 text-foreground">{name}</div>
-                      <div className="leading-5 text-muted-foreground tracking-tight text-sm">{role}</div>
-                    </div>
+                    <div className="font-bold tracking-tight leading-5 text-foreground">{name}</div>
+                    <div className="leading-5 text-muted-foreground tracking-tight text-sm">{role}</div>
                   </div>
                 </div>
               ))}
