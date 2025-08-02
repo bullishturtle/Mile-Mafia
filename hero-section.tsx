@@ -26,7 +26,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('/images/mafia-mile.jpg')`, // Using the new static image
+          backgroundImage: `url('/images/mafia-mile.png')`, // Using the new static image
           backgroundSize: "cover", // Ensure it covers the area
           backgroundPosition: "center", // Center the image
         }}

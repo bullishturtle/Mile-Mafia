@@ -74,7 +74,7 @@ function TimelineItem({ entry, index, scrollProgress }: TimelineItemProps) {
             <div className="sticky top-20">
               <div className="relative overflow-hidden rounded-2xl aspect-[3/4] bg-card border border-border shadow-lg">
                 <img
-                  src={entry.image || "/placeholder.svg"}
+                  src={entry.image || "/placeholder.png"}
                   alt={entry.alt}
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />

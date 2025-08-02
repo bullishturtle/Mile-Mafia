@@ -53,16 +53,13 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Custom colors for the luxury theme
-        luxury: {
-          darkest: "hsl(240 10% 3.9%)", // Near black
-          dark: "hsl(240 10% 5%)", // Deep charcoal
-          medium: "hsl(240 10% 10%)", // Slightly lighter charcoal for cards
-          light: "hsl(240 10% 90%)", // Off-white for text
-          crimson: "hsl(350 80% 30%)", // Rich, dark crimson
-          gold: "hsl(40 90% 60%)", // Elegant gold accent
-          silver: "hsl(210 10% 70%)", // Subtle silver accent
-        },
+        // Custom luxury theme colors
+        "luxury-darkest": "#0A0A0A", // Deepest black
+        "luxury-dark": "#1A1A1A", // Very dark gray
+        "luxury-medium": "#2A2A2A", // Dark gray
+        "luxury-light": "#D4AF37", // Gold for accents
+        "luxury-crimson": "#8B0000", // Deep red for primary
+        "luxury-gold": "#FFD700", // Brighter gold for highlights
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -78,37 +75,15 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "caret-blink": {
+          "0%,70%,100%": { opacity: "1" },
+          "20%,50%": { opacity: "0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-      },
-      boxShadow: {
-        "inset-2xs": "var(--inset-shadow-2xs)",
-        "inset-xs": "var(--inset-shadow-xs)",
-        "inset-sm": "var(--inset-shadow-sm)",
-        inset: "var(--inset-shadow)",
-        "inset-md": "var(--inset-shadow-md)",
-        "inset-lg": "var(--inset-shadow-lg)",
-        "inset-xl": "var(--inset-shadow-xl)",
-        "inset-2xl": "var(--inset-shadow-2xl)",
-        "2xs": "var(--shadow-2xs)",
-        xs: "var(--shadow-xs)",
-        sm: "var(--shadow-sm)",
-        DEFAULT: "var(--shadow)",
-        md: "var(--shadow-md)",
-        lg: "var(--shadow-lg)",
-        xl: "var(--shadow-xl)",
-        "2xl": "var(--shadow-2xl)",
-      },
-      backgroundSize: {
-        "linear-to-t": "100% 200%",
-      },
-      backgroundPosition: {
-        "linear-to-t": "0% 100%",
-      },
-      backgroundImage: {
-        "linear-to-t": "linear-gradient(to top, var(--tw-gradient-stops))",
+        "caret-blink": "caret-blink 1.2s ease-out infinite",
       },
     },
   },

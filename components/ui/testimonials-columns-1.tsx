@@ -32,7 +32,7 @@ export const TestimonialsColumn = (props: {
                     <img
                       width={48}
                       height={48}
-                      src={image || "/placeholder.svg"}
+                      src={image || "/placeholder.png"}
                       alt={name}
                       className="h-12 w-12 rounded-full object-cover border-2 border-primary" // Added border for luxury
                     />
@@ -56,70 +56,70 @@ const testimonials = [
     testimonial:
       "The Mile Mafia isn't just a club; it's a crucible for growth. I came in looking for runs, and found a family that pushes me harder than I ever thought possible. My PBs are proof.",
     by: "Landon G., Founding Member",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 1,
     testimonial:
       "I was tired of casual jogs. The Mile Mafia delivered the serious, team-oriented training I craved. Every Sunday, we leave it all on the road. This is where real change happens.",
     by: "Marcus 'The Hammer' Johnson, Enforcer",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 2,
     testimonial:
       "Accountability is key here. Knowing the Mafia is waiting for me every Sunday afternoon keeps me disciplined. It's tough, but the results speak for themselves.",
     by: "Sarah 'Sprints' Chen, Strategist",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 3,
     testimonial:
       "This isn't your grandma's running club. The Mile Mafia is hardcore, fun, and utterly transformative. I've shed excuses and gained a new level of mental toughness.",
     by: "David 'Diesel' Rodriguez, Road Captain",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 4,
     testimonial:
       "I joined for the runs, but stayed for the brotherhood. The Mile Mafia pushes you to your limits, then helps you shatter them. It's a lifestyle, not a hobby.",
     by: "Priya 'Pace' Patel, Navigator",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 5,
     testimonial:
       "If you're serious about running and personal growth, look no further. The Mile Mafia is the real deal. No fluff, just pure, unadulterated dedication.",
     by: "James 'Juggernaut' Wilson, Veteran",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 6,
     testimonial:
       "Every Sunday, we show up. Every Sunday, we get stronger. The Mile Mafia isn't just about miles; it's about building character and unbreakable bonds.",
     by: "Aisha 'Apex' Mohammed, Trailblazer",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 7,
     testimonial:
       "I've found my tribe. The Mile Mafia is a no-nonsense group that values effort and commitment. It's like a biker gang, but our engines are our legs.",
     by: "Alex 'Ace' Kim, Recruit",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 8,
     testimonial:
       "The energy is electric. We push each other, we support each other, and we celebrate every hard-won victory. This is what a real running club feels like.",
     by: "Lisa 'Lightning' Garcia, Scout",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
   {
     tempId: 9,
     testimonial:
       "My running transformed after joining. The focus on personal development and accountability is unmatched. The Mile Mafia is a game-changer.",
     by: "Michael 'Machine' Chen, Quartermaster",
-    imgSrc: "/placeholder.svg?height=48&width=48",
+    imgSrc: "/placeholder.png?height=48&width=48",
   },
 ]
 
