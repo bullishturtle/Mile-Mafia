@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%; /* Near black */
+    --foreground: 240 10% 90%; /* Off-white */
+    --card: 240 10% 10%; /* Dark charcoal for cards */
+    --card-foreground: 240 10% 90%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 240 10% 90%;
+    --primary: 350 80% 30%; /* Rich, dark crimson */
+    --primary-foreground: 240 10% 95%; /* Very light for primary text */
+    --secondary: 240 10% 20%; /* Deep charcoal */
+    --secondary-foreground: 240 10% 90%;
+    --muted: 240 10% 15%; /* Slightly lighter dark charcoal */
+    --muted-foreground: 240 10% 60%; /* Muted gray */
+    --accent: 40 90% 60%; /* Elegant gold accent */
+    --accent-foreground: 240 10% 10%; /* Dark text on gold */
+    --destructive: 0 80% 50%; /* Standard red for destructive actions */
+    --destructive-foreground: 240 10% 95%;
+    --border: 240 10% 25%; /* Darker border */
+    --input: 240 10% 20%;
+    --ring: 350 80% 30%; /* Crimson ring */
+
+    --font-sans: Montserrat, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Fira Code, monospace;
+    --radius: 0.675rem;
+    /* Adjust shadows for dark theme */
+    --shadow-2xs: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.16);
+    --shadow-xs: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.16);
+    --shadow-sm: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.32), 4.5px 1px 2px -1px hsl(0 0% 0% / 0.32);
+    --shadow: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.32), 4.5px 1px 2px -1px hsl(0 0% 0% / 0.32);
+    --shadow-md: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.32), 4.5px 2px 4px -1px hsl(0 0% 0% / 0.32);
+    --shadow-lg: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.32), 4.5px 4px 6px -1px hsl(0 0% 0% / 0.32);
+    --shadow-xl: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.32), 4.5px 8px 10px -1px hsl(0 0% 0% / 0.32);
+    --shadow-2xl: 4.5px 4.5px 0px 0px hsl(0 0% 0% / 0.8);
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
+  }
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+  font-family: var(--font-sans);
+}
+
+/* Subtle Grid Background Pattern - adjusted for dark, luxury theme */
+.bg-grid-subtle {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 0;
+}
+
+.bg-grid-subtle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle at 20px 20px, rgba(255, 255, 255, 0.005) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
